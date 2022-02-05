@@ -25,7 +25,7 @@ Enough with the intro .. lets get coding.
 ## Configuration
 
 1. In `index.html` change the IP of to match your Node-red server's IP<br> `<script src="http://192.168.0.7:1880/uibuilder/vendor/socket.io/socket.io.js"></script>`
-2. During the installation steps I used as an example the uibuilder url `navbar`.<br>
-If you used something else more appropriate for your project, then you have to make two changes for the navigation to work.<br> 
+2. During the installation steps I used as an example the uibuilder url `test`.<br>
+If you used something else more appropriate for your project, then you have to make a change for the navigation to work.<br> 
 in `index.js` change `uibuilder.start('/test', '/uibuilder/vendor/socket.io')`  
 3. After any change, rebuild the app using `npm run build`
