@@ -5,7 +5,7 @@ This is an external template for **node-red-contrib-uibuilder**.<br>
 ![image](https://user-images.githubusercontent.com/93290787/152658931-e7fa3823-db9d-425b-8e12-74c0144c663a.png)
 
 
-Each page is a seperate .vue component file (Single File Component) that loads in the parent **App.vue**<br>. We use a SFC for each page to seperate and make the design cleaner with its own code and functionality.<br>
+Each page is a seperate .vue component file (Single File Component) that loads in the parent **App.vue**.<br> We use a SFC for each page to seperate and make the design cleaner with its own code and functionality.<br>
 
 Because we are using .vue files and modern javascript syntax in our application, we'll need a bundler to build/translate that code into plain javascript so the browser can understand. In this project we use **Parcel**.
 
