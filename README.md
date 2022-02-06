@@ -9,7 +9,7 @@ The navigation bar is a seperate .vue component file (Single File Component) tha
 
 Because we are using .vue files and modern javascript syntax in our application, we'll need a bundler to build/translate that code into plain javascript so the browser can understand. In this project we use **Parcel**.
 
-You dont have to worry about installing or configuring anything with Parcel, it gets installed when you run `npm install` as it is in `package.json` devDependencies, along with two script commands `npm run build` to build your app and `npm run watch` to build and continue watching for any file changes, which makes re-building much faster during development.
+You dont have to worry about installing or configuring anything with Parcel, it gets installed when you run `npm install` as it is in `package.json` devDependencies, along with two script commands `npm run build` to build your app and `npm run dev` to build and continue watching for any file changes, which makes re-building much faster during development.
 
 ## How to install
 
