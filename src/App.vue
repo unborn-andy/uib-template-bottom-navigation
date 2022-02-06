@@ -1,6 +1,6 @@
 <template>
   <div id="btn-app">
-    <h1>Vue-Bottom-Navigation with uibuilder</h1>
+    <h1 class="mt-5">Vue-Bottom-Navigation with uibuilder</h1>
 
     <div>
       <div class="color-picker-container">
