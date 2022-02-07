@@ -5,7 +5,7 @@ This is an external template for **node-red-contrib-uibuilder**.<br>
 ![image](https://user-images.githubusercontent.com/93290787/152658931-e7fa3823-db9d-425b-8e12-74c0144c663a.png)
 
 
-The navigation bar is a seperate .vue component file (Single File Component) that loads in the parent **App.vue**.<br> We use a SFC for each page to seperate and make the design cleaner with its own code and functionality.<br>
+The navigation bar is a seperate .vue component file (Single File Component) that loads in the parent **App.vue**.<br> We use a SFC for each component to seperate and make the design cleaner with its own code and functionality.<br>
 
 Because we are using .vue files and modern javascript syntax in our application, we'll need a bundler to build/translate that code into plain javascript so the browser can understand. In this project we use **Parcel**.
 
@@ -26,4 +26,4 @@ You dont have to worry about installing or configuring anything with Parcel, it 
 2. During the installation steps I used as an example the uibuilder url `test`.<br>
 If you used something else more appropriate for your project, then you have to make a change for the navigation to work.<br> 
 in `index.js` change `uibuilder.start('/test', '/uibuilder/vendor/socket.io')`  
-3. After any change, rebuild the app using `npm run build`
+3. After any change, rebuild the app using `npm run build` <br>or watch for changes and rebuild with `npm run dev`
